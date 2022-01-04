@@ -10,6 +10,7 @@ body{
     width: 50%;
     margin-left: 5%;
     margin-top: 30px;
+    text-align: justify;
 }
 .half-width img{
     width: 80%;
@@ -39,4 +40,42 @@ body{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-sec{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: 150px;
+    margin-top: 50px;
+}
+.experience-sec h1{
+    font-size: 30px;
+}
+#ex-heading{
+    margin-left: 57px;
+}
+.box-item{
+    margin-left:60px;
+    margin-right: 10px;
+    box-shadow: 10px 10px 30px black;
+    padding:20px 30px;
+    margin-top: 30px;
+    text-align: justify;
+    width: 50%;
+}
+#item1{
+    border-left: 5px solid;
+    border-image: linear-gradient(red,rgb(243, 127, 107)) ;
+    border-image-slice: 1;
+}
+
+#item2{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,rgb(83, 192, 243)) ;
+    border-image-slice: 1;
+}
+
+footer{
+    margin-top: 80px;
+    text-align: center;
+    font-weight: 600;
 }
